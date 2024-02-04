@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f11515;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        header {
+            background-color: #3e11e2e0;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            padding: 20px;
+            text-align: left;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 70%;
+        }
+
+        section h2 {
+            margin-bottom: 10px;
+        }
+
+        section ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        section li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: auto;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Profil Saya</h1>
+    </header>
+
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Katalog</a>
+        <a href="profil.html">Tentang Saya</a>
+        <a href="login.html">Login</a>
+    </nav>
+
+    <section>
+        <h2>Informasi Umum</h2>
+        <ul>
+            <li><strong>NIM:</strong> 2257401032</li>
+            <li><strong>Nama:</strong> Ahlan</li>
+            <li><strong>Email:</strong> ahlan3391@gmail.com</li>
+            <li><strong>Kelas:</strong> MI22A</li>
+            <li><strong>Kampus:</strong> Politeknik Piksi Input Serang</li>
+        </ul>
+
+        <h2>"QOETES"</h2>
+        <p>Belajar memang melelahkan, tapi akan melelahkan jika kamu tidak belajar</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/ahlan.amg" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/ahlan.e_" target="_blank">Instagram</a>
+    </section>
+    <script>
+        function kembaliKeHalamanAwal() 
+        {
+            window.location.href = "login.html";
+        }
+    </script>
+    <footer>
+        <p>&copy; By Ahlan</p>
+    </footer>
+
+</body>
+</html>
